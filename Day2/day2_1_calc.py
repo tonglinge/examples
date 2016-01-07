@@ -116,7 +116,7 @@ def calc_string(string):
 
 if __name__ == "__main__":
     a = "9*-3+(-2/1*4/-12+(-8/-2))-(-2*(-5/(-6-8/2)+4)/(5-2+6)*-2)-(4-12*+6/2)"
-    #a = '-6-8*-2/-3'
+    #a = ""
     print('表达式为: %s' % a)
     print("eval函数计算结果为: %s" % eval(a))
     get_simple_express(a, a)
